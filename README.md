@@ -1,2 +1,2 @@
-# ATIVIDADES DE LOGICA
+# ATIVIDADES-DE-LOGICA
 João Gonçalves Brandão Jácome
