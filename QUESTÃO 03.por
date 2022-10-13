@@ -3,38 +3,35 @@ programa
 	
 	funcao inicio()
 	{
-		real nota
+		logico chifre, asa, caricbaleia, cariccachorro
 
-		escreva("digite sua nota: ")
-		leia(nota)
+		escreva("Seu animal tem chifre? ")
+		leia(chifre)
+		escreva("\nSeu animal tem asa? ")
+		leia(asa)
+		escreva("\nSeu animal é o mamifero mais pesado do mundo? ")
+		leia(caricbaleia)
+		escreva("\nSeu animal é o melhor amigo do homem? ")
+		leia(cariccachorro)
 
-		se(nota < 3)
+		se (chifre == verdadeiro)
 		{
-			escreva("Conceito E")
+			escreva("\nSeu animal é o BOI")
 		}
-		senao se((nota >= 3) e (nota <= 5))
+		senao se(asa == verdadeiro)
 		{
-			escreva("Conceito D")
+			escreva("\nSeu animal é a borboleta")
 			
 		}
-		senao se((nota >= 6) e (nota <= 7))
+		senao se(caricbaleia == verdadeiro)
 		{
-			escreva("Conceito C")
+			escreva("\nSeu animal é uma baleia")
 		}
-		senao se(nota >= (8) e (nota <9))
+		senao se(cariccachorro == verdadeiro)
 		{
-			escreva("Conceito B")
-			
+			escreva("\nSeu animal é um cachorro")
 		}
-		senao se(nota == 10)
-		{
-			escreva("Conceito A")
-			
-		}
-		senao
-		{
-			escreva("nem existe")
-		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -42,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 412; 
+ * @POSICAO-CURSOR = 678; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
